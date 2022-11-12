@@ -1,0 +1,19 @@
+.BigBox {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    left: 400px;
+}
+
+.SmallBox {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: darkmagenta;
+}
